@@ -1,13 +1,5 @@
-const express = require('express')
+const customExpress = require('./config/customExpress')
 
-// Create server
-const app = express()
+const app = customExpress()
 
-// Run server
 app.listen(3000, () => console.log('Servidor rodando na porta 3000'))
-
-// Route Home
-app.get('/', (req, res) => res.send('Você está na HOME, tente em /atendimentos agora'))
-
-// Route atendimentos
-app.get('/atendimentos', (req, res) => res.send('Você está na rota de atendimentos'))
