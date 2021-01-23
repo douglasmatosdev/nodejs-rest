@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-rest",
+  "version": "1.0.0",
+  "description": "This is studies about nodejs rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasmatosdev/nodejs-rest.git"
+  },
+  "author": "douglasmatosdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasmatosdev/nodejs-rest/issues"
+  },
+  "homepage": "https://github.com/douglasmatosdev/nodejs-rest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
